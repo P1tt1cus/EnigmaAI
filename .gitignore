@@ -1,0 +1,4 @@
+*.pyc
+.enig/**
+**/cache/**
+**/config/**
