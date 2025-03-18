@@ -5,7 +5,7 @@ from .enigma_ui import OllamaConnectionDialog
 def set_server_information(bv: BinaryView):
     print("set server information")
 
-    dialog = OllamaConnectionDialog("titties", 1234)
+    dialog = OllamaConnectionDialog("", 1234)
     if dialog._exec():
         print("coool")
 
